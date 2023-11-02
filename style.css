@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quiz {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #888;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border-radius: 5px;
+    box-shadow: #28a745 0px 3px 8px;
+}
+
+.result p:first-child{
+    padding: 10px 20px;
+}
+
+.reload button {
+    background-color: #78a728;
+    color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reload button:hover{
+    background-color: #1c7130;
+}
+
+.quizForm {
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.option {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
