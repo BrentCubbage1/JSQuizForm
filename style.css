@@ -43,7 +43,13 @@ main {
     padding: 10px;
     background-color: #d4edda;
     border-radius: 5px;
-    box-shadow: #28a745 0px 3px 8px;
+    box-shadow: #165c26 0px 3px 8px;
+}
+
+.question{
+    background-color:#d4daed ;
+    box-shadow: #162b5c 0px 3px 8px;
+    padding: 5px;
 }
 
 .result p:first-child{
