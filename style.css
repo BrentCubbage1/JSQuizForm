@@ -48,8 +48,27 @@ main {
 
 .question{
     background-color:#d4daed ;
-    box-shadow: #162b5c 0px 3px 8px;
+    box-shadow: #162b5c 0px 2px 7px;
     padding: 5px;
+    margin: 20px;
+}
+
+.question > * {
+    font-size: small;
+}
+
+.option {
+    margin-left: 5px;
+}
+
+.submit {
+}
+
+.submit input {
+background-color: #78a728;
+color: #fff;
+padding: 5px 25px;
+
 }
 
 .result p:first-child{
