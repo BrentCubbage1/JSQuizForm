@@ -10,8 +10,9 @@ form.addEventListener("submit", event => {
 
     userAnswers.forEach((answer, index) => {
         if (answer === correctAnswer[index]){
-            console.log(correctAnswer);
+            score = score + 1;
         }
 
-    }
-})
+    });
+    console.log(score);
+});
