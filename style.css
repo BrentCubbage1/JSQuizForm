@@ -6,7 +6,7 @@ body, h1, h2, p, ul {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #625e5e;
 }
 
 main {
@@ -16,7 +16,7 @@ main {
 }
 
 .quiz {
-    background-color: #fff;
+    background-color: rgb(219, 221, 197);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -77,6 +77,11 @@ border: 5px;
 
 }
 
+.submit input:hover{
+    cursor: pointer;
+    background-color: #165c26;
+}
+
 .result p:first-child{
     padding: 10px 20px;
 }
@@ -127,4 +132,8 @@ label {
 
 input[type="radio"] {
     margin-right: 10px;
+}
+
+.hide {
+    display: none;
 }
