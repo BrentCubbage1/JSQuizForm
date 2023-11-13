@@ -1,5 +1,5 @@
 const form = document.querySelector(".quizForm")
-const correctAnswer = ["A", "A", "A","A","A"]
+const correctAnswer = ["B", "C", "A","A","B"]
 const result = document.querySelector(".result");
 const questions = document.querySelectorAll(".question")
 

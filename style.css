@@ -137,3 +137,8 @@ input[type="radio"] {
 .hide {
     display: none;
 }
+
+.code-snippet {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
