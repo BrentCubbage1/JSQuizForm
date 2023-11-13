@@ -30,6 +30,7 @@ form.addEventListener("submit", event => {
     //So then I can update it based off the score.
 
     //throw a template literal in there and...
-    result.querySelector("p").textContent = `You scored ${score}/5`;
+    result.querySelector("p").textContent = `You scored ${score}/5!`;
 
 });
+
